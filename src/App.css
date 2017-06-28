@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Instructor-container {
+  padding: 20px;
+  height: 400px;
+}
+
+.Instructor-image {
+  height: 300px;
+}
+
+.Instructor-name {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.Instructor-desc {
+  color: grey;
+  font-size: 35px;
+}
+
+.Course-description-container {
+  background-color: black;
+  color: white;
+}
+
+.Course-description-item {
+  width: 25%;
+  height: 200px;
+  float: left;
+  padding: 40px;
+  border-style: solid;
+  border-width: 11px;
+  border-color: black;
+  background-color: black;
+}
+
+.Course-desc-cost {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.Course-desc-payment {
+  padding: 10px;
+}
+
+.Course-description-button-red {
+  background-color: #be3f3f;
+  color:white;
+  border-style: none;
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Course-description-button-grey {
+  background-color: #292929;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  margin: 10px;
+  font-size: 13px;
+}
+
+.Course-description-button-black {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin: 10px;
+  font-size: 13px;
+}
+
+.Course-container {
+  background-color: white;
+  color: grey;
+}
+
+.Course-intro {
+  float: left;
+  font-size: 3;
+  width: 65%;
+}
+
+.Course-image {
+  width: 35%;
+  height: 175px;
+}
+
+.Course-schedule-container {
+  background-color: black;
+}
+
+.Course-schedule-item {
+  background-color: white;
+  font-size: 15px;
+  color: grey;
+  width: 28%;
+  padding: 13px;
+  height: 175px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
+
+.Lesson-plan-container {
+  padding: 20px;
+  border-width: 0 100px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.Lesson-list {
+  color: grey;
+  list-style: none;
+  text-align: left;
+}
+
+.Review-container {
+  padding: 20px;
+  border-width: 40px 100px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  height: 300px;
+}
+
+
+.Review-student-image {
+  height: 118px;
+  width: 118px;
+  border-radius: 50%; 
+}
+
+.Review-desc {
+  padding-top: 0;
+  float: left;
+  width: 70%;
+  color: grey;
+  font-size: 32px;
+}
+
+.Review-desc-img {
+  padding: 35px 80px 15px 0;
+  float: right;
+  color: grey;
+}
+
+.Review-student-name {
+  font-weight: bold;
+}
+
+.Review-student-desc {
+  color: #C5C1C0;
+  font-size: 12px;
+}
+
+.Recommendation-item {
+  list-style: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
